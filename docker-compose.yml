@@ -18,7 +18,7 @@ services:
       - 83:80
     deploy:
       replicas: 3
-  recharge: null
+  recharge:
     image: girishma31/recharge:repo
     ports:
       - 84:80
