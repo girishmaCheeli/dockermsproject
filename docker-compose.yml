@@ -9,7 +9,7 @@ services:
   train:
     image: girishma31/train:repo
     ports:
-      - 82/80
+      - 82:80
     deploy:
       replicas: 3
   dth:
