@@ -1,25 +1,25 @@
 version: "3.8"
 services:
   movies:
-    image: girishma31/movies:repo
+    image: girishma31/moviesrepo:latest
     ports:
       - 81:80
     deploy:
       replicas: 3
   train:
-    image: girishma31/train:repo
+    image: girishma31/trainrepo:latest
     ports:
       - 82:80
     deploy:
       replicas: 3
   dth:
-    image: girishma31/dth:repo
+    image: girishma31/dthrepo:latest
     ports:
       - 83:80
     deploy:
       replicas: 3
   recharge:
-    image: girishma31/recharge:repo
+    image: girishma31/rechargerepo:latest
     ports:
       - 84:80
     deploy:
